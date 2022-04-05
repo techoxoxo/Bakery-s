@@ -1,0 +1,103 @@
+@media only screen and (max-width:700px) {
+    *{
+        margin:0px;
+        padding:0px;
+       
+    
+    }
+    #nav-bar{
+        display: block;
+        text-align: center;
+    }
+    #nav-bar ul{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0px 15px;
+    }
+    #nav-bar ul li{
+        font-size: 80%;
+    }
+    #nav-bar ul li a{
+        margin: 15px 5px;
+    }
+    #home{
+        margin-top: 3%;
+        padding: 0px;
+        
+    }
+    #home .home-text {
+        font-size: 1.8rem;
+    }
+    /*-- about section  --*/
+    #about-container{
+        flex-direction: column;
+    }
+    .leftabout{
+        width: 90%;
+        text-align: center;
+    }
+    #right-about{
+        width: 100%;
+        
+        align-content: center;
+        
+    }
+#gridimage1 , #gridimage2 , #gridimage3 , #gridimage4 {
+      width: 70vw;
+      height: 30vh;
+      margin: 3%;
+      border-radius: 20px 0px;
+}
+    #moretext{
+        display: none;
+    }
+    #mybtn{
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .foodimage{
+        width: 33.3%;
+        height: 170px;
+        margin: 0px 3%;
+        
+    }
+    .grid-row1 , .grid-row2, .grid-row3{
+        justify-content: center;
+        margin: 2.5% 0;
+    }
+    .ourshops-section{
+        height: 70%;
+    }
+    .store1{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+
+    
+    .ourshop-container{
+        margin: 10% 0;
+        text-align: left;
+    
+    }
+    .contact-object{ 
+        display: flex;
+        flex-direction: column;
+    }
+    #form{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 60%;
+        margin-top: 10%;
+    }
+    #form h3{
+        margin-top: 1.5rem;
+    }
+
+
+}
